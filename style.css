@@ -1,0 +1,14 @@
+.col-sm {
+    border: solid black 1px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    border: solid #444 1px;
+}

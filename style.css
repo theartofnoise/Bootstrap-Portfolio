@@ -1,5 +1,8 @@
 body {
-    background-image: url(images/musicBG.png);
+    background-color: #fff6f0;
+    background-image: url(images/bigBG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 p {
     color: #333;
@@ -26,7 +29,12 @@ p {
 }
 
 footer {
-    
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
     text-align: center;
     
 }
@@ -40,3 +48,9 @@ footer {
 }
 .fa:hover {
     opacity: 0.7;
+}
+@media screen and (max-width:768px) {
+    body {
+        background-image: url(images/musicBG2.png);
+    } 
+}

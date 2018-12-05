@@ -1,8 +1,11 @@
+
 body {
     background-color: #fff6f0;
     background-image: url(images/bigBG.png);
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+    min-height: 100%;
 }
 p {
     color: #333;
@@ -14,7 +17,7 @@ p {
     border: solid black 1px;
 }
 .container {
-    max-width: 80%;    
+    max-width: 80%;   
 }
 .navbar {
     margin-bottom: 20px;
@@ -36,6 +39,7 @@ footer {
     padding-right: 15px;
     padding-left: 15px;
     text-align: center;
+    padding-top: 60px;
     
 }
 .fa {

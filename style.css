@@ -29,6 +29,7 @@ p {
     margin-right: -9px;
 }
 .img-thumbnail {
+    float: left;
     max-width: 36%;
     border: 5px solid #444;
     margin: 0px 20px 5px 5px;
@@ -55,8 +56,18 @@ footer {
 .fa:hover {
     opacity: 0.7;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:992px) {
     body {
         background-image: url(images/musicBG2.png);
     } 
 }
+@media screen and (max-width:576px) {
+    .img-fluid {
+        max-width: 100%;
+    }
+}
+/*@media screen and (max-width:992px) {
+    .img-fluid {
+        max-width: 36%;
+    }
+
